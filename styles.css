@@ -1,9 +1,15 @@
+.bungee-tint-regular {
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  } 
+
 body {
     color: white;
     background: white;
     margin: 0px;
     font-family: "Chakra Petch", sans-serif;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
 }
 
 nav {
@@ -36,6 +42,19 @@ nav {
     border: none;
     padding: 10px;
 }
+.input-header {
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: none;
+    border: none;
+    padding: 10px;
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+
+::-webkit-input-placeholder {
+    color: white;
+ }
 
 .icon-search {
     cursor: pointer;
@@ -61,7 +80,7 @@ nav {
     top: 70px;
     left: 0;
     height: 590px;
-    width: 100vw;
+    width: calc(100vw - 20px);
     z-index: 1;
 }
 
@@ -71,45 +90,43 @@ nav {
 
 .container {
     width: 100vw;
-    padding: 5px;
-}
-/*
-h1 {
-    font-size: 40px;
+    padding: 10px 20px;
 }
 
-p {
-    font-size: 20px;
-}
-
-.categoria-videos {
+.header-section {
+    height: 40px;
     display: flex;
-    overflow-x: auto;
+    align-items: center;
     gap: 10px;
+    margin-bottom: 5px;
 }
 
-.categoria {
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-top: 50px;
+.separator {
+    width: 5px;
+    height: 100%;
 }
 
-.categoria-videos img {
-    opacity: 0.5;
-    height: 200px;
+.titulo-header {
+    font-weight: bold;
 }
 
-.categoria-videos img:hover {
-    opacity: 1.0;
-    border: 3px solid green;
+.container-cards {
+    padding: 0;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
 }
 
-.categoria h2 {
-    color: rgb(42, 122, 228);
-}*/
+.card {
+    max-width: 450px;
+}
 
-.bungee-tint-regular {
-    font-family: "Bungee Tint", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  } 
+.titulo-card {
+    font-weight: bold;
+}
+
+.autor-card {
+
+}
