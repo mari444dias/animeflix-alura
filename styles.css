@@ -27,7 +27,6 @@ nav {
 .title-header {
     padding: 10px;
     font-size: 32px;
-    color: rgb(42, 122, 228);
 }
 
 .input-header {
@@ -43,18 +42,38 @@ nav {
     height: 30px;
 }
 
-/* .chamada {
-    background: rgb(184, 156, 213);
-    padding-bottom: 80px;
-    padding-top: 80px;
+ .banner {
+    background-image: url('assets/bg-banner.png');
+    background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 550px;
+    padding: 20px;
+    padding-top: 90px;
 }
 
-.chamada-texto {
-    margin-right: 5%;
+.overlay-banner {
+    background-color: black;
+    position: absolute;
+    opacity: 0.3;
+    top: 70px;
+    left: 0;
+    height: 590px;
+    width: 100vw;
+    z-index: 1;
 }
 
+.banner-texto {
+    z-index: 2;
+}
+
+.container {
+    width: 100vw;
+    padding: 5px;
+}
+/*
 h1 {
     font-size: 40px;
 }
@@ -87,10 +106,10 @@ p {
 
 .categoria h2 {
     color: rgb(42, 122, 228);
-}
+}*/
 
 .bungee-tint-regular {
     font-family: "Bungee Tint", sans-serif;
     font-weight: 400;
     font-style: normal;
-  } */
+  } 
